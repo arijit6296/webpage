@@ -1,0 +1,152 @@
+.shop-middle-section {
+    width: 100%;
+    background-color: #F9F1E7;
+    height: 100px;
+    padding: 30px 0px 85px;
+}
+.shop-middle-section >.row {
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.filter-icon {
+    padding: 0 10px;
+}
+
+.grid-big-round {
+    padding: 0 20px;
+}
+
+.group {
+    font-size: 17px;
+    padding: 0 20px;
+}
+
+.view-list {
+    padding-right: 20px;
+}
+
+.view-list i {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+.filter-text {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+
+.icon-option {
+    border-right: 1px solid #000;
+    display: flex;
+}
+
+.first-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-text {
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.Short-by-text {
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.rectangel-first-box select {
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    border: none;
+    color: #9F9F9F;
+    font-weight: 400;
+    text-align: center;
+    appearance: none;
+
+}
+
+.rectangel-second-box select {
+    width: 188px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #9F9F9F;
+    font-weight: 400;
+    text-align: center;
+    appearance: none;
+}
+
+.rectangel-second-box select option {
+    text-decoration: none;
+}
+
+
+.back-option {
+    display: flex;
+    padding-left: 50px;
+}
+
+.home-back {
+    display: flex;
+    padding-left: 20px;
+    color: #9F9F9F;
+}
+
+.shop-back {
+    display: flex;
+    color: #9F9F9F;
+    padding-right: 30px;
+}
+
+.sofa {
+    font-weight: 400;
+    border-left: 1px solid #9F9F9F;
+}
+
+.home {
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.shop {
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.asgaard-sofa {
+    font-weight: 400;
+}
+
+
+.product-details {
+    width: 100%;
+}
+.icon2 img{
+    width:20px
+}

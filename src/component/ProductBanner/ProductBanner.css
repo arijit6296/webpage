@@ -1,0 +1,84 @@
+.shop-banner {
+    width: 100%;
+
+    position: relative;
+}
+.banner-text img{
+    margin-top: 33px;
+    width: 60px;
+}
+
+.banner-text {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+.big-shop {
+    font-weight: 400;
+    color: #000000;
+}
+
+.click {
+
+    justify-content: center;
+    display: flex;
+}
+
+.option button {
+    width: 245px;
+    height: 48px;
+    border: 1px solid var(--Primary, #B88E2F);
+    background: #FFF;
+    color: #B88E2F;
+    font-weight: 600;
+}
+
+
+
+
+.back-option {
+    display: flex;
+    padding-left: 50px;
+}
+
+.home-back {
+    display: flex;
+    padding-right: 0px;
+    color: #9F9F9F;
+    text-decoration: none;
+}
+
+.shop-back {
+    display: flex;
+    color: #9F9F9F;
+    padding-right: 0px;
+    text-decoration: none;
+}
+
+.sofa {
+    font-weight: 400;
+    border-left: 1px solid #9F9F9F;
+}
+
+.home {
+    font-weight: 400;
+    color: #262626;
+}
+
+.shop {
+    font-weight: 400;
+    color: #262626;
+}
+
+.asgaard-sofa {
+    font-weight: 400;
+}
+
+
+.product-details {
+    width: 100%;
+}
+.icon2 img{
+    width:20px
+}

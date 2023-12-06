@@ -1,0 +1,64 @@
+.top-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 20px;
+}
+
+.upper-text {
+    text-align: center;
+}
+
+.images-section {
+    padding-top: 50px;
+}
+
+
+.images-section {
+    display: flex;
+    justify-content: center;
+}
+
+ .images-section ul {
+    display: flex;
+
+}
+
+.images-section ul li {
+    list-style: none;
+
+    margin: 30px;
+}
+
+.text-image {
+    text-align: center;
+}
+.option button {
+    width: 245px;
+    height: 48px;
+    border: 1px solid var(--Primary, #B88E2F);
+    background: #FFF;
+    color: #B88E2F;
+    font-weight: 600;
+}
+.first img{
+    width: 300px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) { 
+    .images-section ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .first img {
+        width: 240px;
+    }
+    .image-section{
+        margin-top: 400px !important;
+        margin-left: 18px !important;
+    }
+    .images-section {
+        padding-top: 0px;
+    }
+}

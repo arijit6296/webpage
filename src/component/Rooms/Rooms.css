@@ -1,0 +1,186 @@
+.middle-card {
+    background-color: #FCF8F3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.inner-box span {
+    display: block;
+
+}
+
+.inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.text span {
+    display: block;
+}
+
+.option {
+    text-align: center;
+}
+
+.middle-button-section button {
+    padding: 15px 40px;
+    border: none;
+    background-color: #B88E2F;
+    color: #ffffff;
+}
+
+.left-image-parent {
+    position: relative;
+    margin: 40px;
+}
+
+.left-image-child {
+    width: 217px;
+    height: 130px;
+    background-color: #FFFFFFB8;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.bed-room {
+    color: #616161;
+    text-align: center;
+}
+
+.inner-peace {
+    text-align: center;
+    font-weight: 600px;
+}
+
+.left-image-box {
+    background-color: #B88E2F;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 0px;
+    right: -48px;
+
+}
+
+.round-box {
+    display: flex;
+    align-items: center;
+}
+
+.round {
+    justify-content: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 1px solid #B88E2F;
+    display: flex;
+    align-items: center;
+}
+
+.first-round {
+    background-color: #B88E2F;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.second-round {
+    background-color: #D8D8D8;
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) { 
+    .middle-card {
+        background-color: #FCF8F3;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+        margin: 20px auto;
+    }
+   .left-image img{
+    width: 90px;
+   }
+   .middle-image-image img{
+    width: 90px;
+   }
+   .right-image img {
+    width: 12.6px;
+    margin-left: 6px;
+}
+   .left-image-child {
+    width: 76px;
+    height: 43px;
+    background-color: #FFFFFFB8;
+    position: absolute;
+    left: 2px;
+    bottom: 331px;
+}
+.inner-top-text{
+    font-size: 10px;
+    margin-left: 46px;
+}
+.inner-uppor-text{
+    font-size: 6px;
+    margin-left: 46px;
+}
+.left-image-parent {
+    position: relative;
+    margin: 6px;
+}
+.bed-room{
+    font-size: 11px;
+}
+.inner-peace{
+    font-size: 11px;
+}
+.left-image-box {
+    background-color: #B88E2F;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    bottom: 4px;
+    right: -8px;
+}
+.first-round {
+    background-color: #B88E2F;
+    width:5px;
+    height:5px;
+    border-radius: 50%;
+    margin: 0px;
+}
+.second-round {
+    background-color: #D8D8D8;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    margin: 10px;
+}
+.round {
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #B88E2F;
+    display: flex;
+    align-items: center;
+}
+.middle-button-section button {
+    padding: 5px 22px;
+    border: none;
+    font-size: 10px;
+    margin: 10px 0 0 40px;
+    background-color: #B88E2F;
+    color: #ffffff;
+}
+}
+
+/* @media screen and (min-width: 480px) and (max-width: 767px) { }
+@media screen and (min-width: 768px) and (max-width: 979px) { }
+@media screen and (min-width: 980px) and (max-width: 1024px) { } */

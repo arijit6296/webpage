@@ -1,0 +1,97 @@
+.product-details {
+    width: 100%;
+    border-top: 1px solid;
+}
+
+.product-details .first {
+    border-right: 1px solid;
+}
+
+.genarel {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 126.5%;
+    padding: 10px;
+}
+
+.product-details .first li {
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+
+.product-details .second {
+    border-right: 1px solid;
+}
+
+.product-details .second li {
+    list-style: none;
+    padding: 10px;
+}
+
+.product-details .second .first-text {
+
+    padding-top: 60px;
+}
+
+.product-details .second .second-text {
+
+    padding-top: 60px;
+}
+
+.product-details .second .third-text {
+
+    padding-top: 45px;
+}
+
+
+
+
+.product-details .third {
+    border-right: 1px solid;
+}
+
+.product-details .third li {
+    list-style: none;
+    padding: 10px;
+}
+
+.product-details .third .first-text {
+    padding-top: 60px;
+}
+
+.product-details .third .second-text {
+    padding-top: 60px;
+}
+
+.product-details .third .third-text {
+    padding-top: 45px;
+}
+
+.product-warranty .warranty {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 126.5%;
+}
+
+.product-warranty .first ul {
+    width: 100%;
+}
+
+.product-warranty .first ul {
+    display: flex;
+
+}
+
+.product-warranty .first ul li {
+    list-style: none;
+    border-right: 1px solid;
+    padding: 0 18px;
+    width: 33.33%;
+}
+
+.product-warranty .first ul li p {
+    padding-top: 40px;
+}

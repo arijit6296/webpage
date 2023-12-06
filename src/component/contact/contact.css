@@ -1,0 +1,96 @@
+.marge-div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fast-box2 {
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    width: 211px;
+    height: 75px;
+}
+
+.second-box2 {
+    width: 453px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+}
+
+.second-box22 {
+    width: 453px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    padding: 0 20px;
+    color: #9F9F9F;
+}
+
+.input-type2 {
+    padding: 10px 0;
+}
+
+.input-type2 label {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.second-box23 {
+    width: 453px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+    color: #9F9F9F;
+    background: #FFF;
+    padding: 5px 10px;
+}
+
+.input-type2 input:focus {
+    outline: none;
+    padding: 0 20px;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.svg {
+    width: 50px;
+    padding: 0px 8px;
+}
+
+.address-heading {
+    width: 75%;
+}
+
+.container-head {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container-text {
+    color: #9F9F9F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+    margin: 0 auto;
+}

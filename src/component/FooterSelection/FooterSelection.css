@@ -1,0 +1,36 @@
+.footer-section {
+  width: 100%;
+  background-color: #faf3ea;
+}
+
+.upper-first-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-first-box1 {
+  padding-right: 10px;
+}
+.upper-first-text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 37.5px;
+  text-align: start;
+}
+
+.upper-second-text {
+  color: #898989;
+  font-size: 17px;
+    text-align: start;
+}
+.f-1 {
+  display: flex;
+}
+.f-2 {
+  display: flex;
+}
+
+.upper-text2{
+    padding-left: 13px;
+}

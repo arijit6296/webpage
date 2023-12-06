@@ -1,0 +1,28 @@
+.box-wapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .box-wapper li {
+    list-style: none;
+    padding: 5px 10px;
+  }
+
+  .btn1 {
+    padding: 15px 25px;
+    border-radius: 15%;
+    background-color: #F9F1E7;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    border: 0;
+  }
+
+  .btn-active {
+    background-color: #B88E2F;
+    color: #fff;
+    padding: 15px 25px;
+    border: 0;
+  }

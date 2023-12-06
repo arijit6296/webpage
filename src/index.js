@@ -1,13 +1,54 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import BannerFirst from './component/BannerFirst/BannerFirst';
+import BannerSecond from './component/BannerSecond/BannerSecond';
+import ShopBotton from './component/ShopBannerBottom/ShopBannerBottom';
+import ShopProduct from './component/ShopProduct/ShopProduct';
+import { RouterProvider } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
+import CartPage from './component/ShopProduct/Cart';
+import Contact from './component/contact/contact';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+    children: [
+      {
+        path: "/",
+        element:<><BannerSecond/></>,
+        children:[]
+      },
+      {
+        path: "/shop",
+        element:<> <ShopProduct/> </>,
+      },
+      {
+        path: "/about",
+        element: <BannerFirst/>,
+      },
+      {
+        path: "/blog",
+        element: <BannerFirst/>,
+      },
+      {
+        path: "/contact",
+        element: <Contact/>,
+      },
+      {
+        path: "/cart",
+        element:  <CartPage/>,
+      },
+    ],
+  },
+]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     <RouterProvider router={router} />
   </React.StrictMode>
 );
 
