@@ -40,7 +40,7 @@ export class SingleProduct extends Component {
   }
   updateQuantity = (value) => {
     console.log(value);
-    const newQuantity = Math.max(1, this.state.number + value);
+    const newQuantity = Math.max( this.state.number + value);
 
     this.setState({
       number: newQuantity,

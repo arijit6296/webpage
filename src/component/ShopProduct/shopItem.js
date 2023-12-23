@@ -6,8 +6,6 @@ export class ShopItem extends Component {
     const {title , des , imageUrl, price , percent, onViewDetails } = this.props;
     return (
       <>
-      
-
         <div className="top-card">
           <div className="card-wraper">
             <div className="first-card">

@@ -57,7 +57,6 @@ export class ShopProduct extends Component {
             return (
               <SingleProduct
                 handel={this.state.selectedProduct}
-                // Add any additional props you need for SingleProduct
               />
             );
           }
